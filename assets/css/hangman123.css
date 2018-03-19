@@ -1,0 +1,23 @@
+body {
+    color: blue;
+}
+#container {
+    width: 58%;
+    border: 5px;
+    padding: 10px;
+    margin: 10%;
+    text-align: center;
+    background-color:lightcyan;
+}
+#letters {
+    clear: both;
+    overflow: auto;
+    text-align: center;
+    background-color:crimson;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+#underlines {
+    margin: 0 2px 0 2px;
+}
