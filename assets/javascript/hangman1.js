@@ -24,7 +24,7 @@ Main.SetUnderline = function () {
 }
 Main.UpdateLetter = function (letter) {
     Main.Changes = 0;
-    for (i = 0; i < Main.Word.length; i++) {
+    for (i = 0; i < Main.WordArray.length; i++) {
         Main.WordArray[i] = Main.Word.charAt(i);
         if (Main.Word.charAt(i) == letter) {
             Main.WordUArray[i] = letter;
